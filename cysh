@@ -1,1 +1,8 @@
-cypher/cypher-shell
+#!/bin/bash
+
+# load variables
+. ./.env
+
+# run cypher script using cypher shell
+$CYSH -u $USER -p $PASS
+
