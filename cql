@@ -3,5 +3,9 @@
 # load variables
 . ./.env
 
-cat $1|$CYSH -u $USER -p $PASS > ./output
+# run cypher script using cypher shell
+cat $1|$CYSH -u $USER -p $PASS --format verbose > ./output
+
+# display output from cypher script
+cat ./output
 
