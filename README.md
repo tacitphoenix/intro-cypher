@@ -10,17 +10,33 @@ I have packaged the cypher-shell for the MacOS and Linux in this repo with some 
 
 ### Configure
 
-Edit the env variables in env file and rename it to .env
+1. Download Cypher Shell
+	1. **(Recommended)** Run the get_cypher.sh script to download and unzip cypher-shell
+	2. **(Manual)** Download [cypher-shell][Cypher Shell] and unzip into this directory.
+2. Rename env file to .env and edit the variable to match your environment
+
+**Commands**
 
 ```shell
+./get_cypher.sh
 mv  env .env
 ```
 
 ### Usage
 
-**cysh** : start cypher-shell   
-**cql scripts/clear_graph.cql** : run cypher script to clear graph
+**./cysh** : start cypher-shell   
+**./cql scripts/common/clear_graph.cql** : run cypher script to clear graph
+
+### Tutorials
+
+#### Basic
+
+The basic tutorial uses a combination of Neo4j online cypher tutorials.
+
+**./cql scripts/basic/load_graph.cql** : load basic tutorial graph
+
 
 
 [Cypher]: https://neo4j.com/developer/cypher-query-language/
 [Neo4j]: https://neo4j.com/docs/
+[Cypher Shell]: https://github.com/neo4j/cypher-shell/releases/download/1.1.12/cypher-shell.zip
