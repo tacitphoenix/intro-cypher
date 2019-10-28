@@ -3,5 +3,5 @@
 # load variables
 . ./.env
 
-cat $1|$CYSH -u $USER -p $PASS
+cat $1|$CYSH -u $USER -p $PASS > ./output
 
