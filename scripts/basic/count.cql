@@ -5,5 +5,7 @@ match (p:Person) return p.name;
 match (p:Person) return count(p.name);
 
 // how many people in each company
-match (p:Person)--(c:Company) return c.name, count(p.name);
-
+match (p:Person)--(c:Company) 
+with c, count(p.name) as employee_count
+order by employee_count desc
+return c.name, employee_count;
