@@ -1,0 +1,6 @@
+#!/bin/bash
+
+export USER=neo4j
+export PASS=edit_password
+export CYSH=./cysh
+

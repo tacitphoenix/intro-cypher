@@ -10,13 +10,10 @@ I have packaged the cypher-shell for the MacOS and Linux in this repo with some 
 
 ### Configure
 
-Create a .env file and set the following variables
+Edit the env variables in env file and rename it to .env
 
 ```shell
-#!/bin/bash
-
- export USER=<neo4j>
- export PASS=<password>
+mv  env .env
 ```
 
 ### Usage

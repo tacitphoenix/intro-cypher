@@ -1,7 +1,7 @@
 #!/bin/bash
 
+# load variables
 . ./.env
-CYSH=./cysh
 
 cat $1|$CYSH -u $USER -p $PASS
 
