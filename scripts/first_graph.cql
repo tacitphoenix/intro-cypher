@@ -1,3 +1,6 @@
+// reset graph
+match (n) detach delete n;
+
 // create nodes
 // TODO: Create Person "Robert" who is friends with everyone
 create (mike:Person{name: "Michael", innovator: true})
@@ -56,4 +59,5 @@ create
 // TODO: Update everyone should like the technology their company's industry is in
 create
 (jen)-[:LIKES]->(gh),
-(jen)-[:LIKES]->(vg)
+(sara)-[:LIKES]->(os),
+(jen)-[:LIKES]->(vg);
