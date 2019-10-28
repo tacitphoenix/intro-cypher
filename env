@@ -2,5 +2,5 @@
 
 export USER=neo4j
 export PASS=edit_password
-export CYSH=./cysh
+export CYSH=./cypher/cypher-shell/cypher-shell
 
