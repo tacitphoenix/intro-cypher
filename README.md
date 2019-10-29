@@ -4,7 +4,9 @@
 
 I have packaged the cypher-shell for the MacOS and Linux in this repo with some simple convenience scripts to allow commandline exploration of Cypher.
 
->You know, I know this steak doesn't exist. I know that when I put it in my mouth, the Matrix is telling my brain that it is juicy and delicious. After nine years, you know what I realize? 
+![](https://vignette.wikia.nocookie.net/matrix/images/d/dc/Cypher_Talks_with_Neo.png/revision/latest/scale-to-width-down/240?cb=20130215031028)
+
+>...there's way too much information to decode the Matrix. You get used to it, though. Your brain does the translating. I don't even see the code. All I see is blonde, brunette, redhead. Hey uh, you want a drink?	 
 
 -Cypher (The Matrix)
 
